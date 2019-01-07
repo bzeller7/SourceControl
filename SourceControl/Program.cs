@@ -6,7 +6,9 @@ namespace SourceControl
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter First Name :");
+            string FirstName = Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
