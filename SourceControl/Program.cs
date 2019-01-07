@@ -8,7 +8,6 @@ namespace SourceControl
         {
             Console.WriteLine("Enter First Name :");
             string FirstName = Console.ReadLine();
-            Console.ReadKey();
             Console.WriteLine("Hi " + FirstName + "!");
             Console.ReadKey();
         }
